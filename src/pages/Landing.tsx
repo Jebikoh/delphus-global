@@ -9,18 +9,20 @@ const Landing: React.FC = () => {
             </IonHeader>
             <IonContent>
                 <IonGrid className="container">
-
+                    <IonRow>
+                        <IonCol className="landing-title">DELPHUS  GLOBAL</IonCol>
+                    </IonRow>
                     <IonRow>
                         <IonCol className="iam">I am a...</IonCol>
                     </IonRow>
                     <IonRow className="iam-button-container">
                         <IonCol>
-                            <IonButton className="iam-button">Patient</IonButton>
+                            <IonButton routerLink="/patient" className="iam-button">Patient</IonButton>
                         </IonCol>
                     </IonRow>
                     <IonRow className="iam-button-container">
                         <IonCol>
-                            <IonButton className="iam-button">Researcher</IonButton>
+                            <IonButton routerLink="/researcher" className="iam-button">Researcher</IonButton>
                         </IonCol>
                     </IonRow>
                 </IonGrid>
